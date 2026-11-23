@@ -5,14 +5,14 @@
   ],
   "packs": [
     {
-      "id": "vanilla-test",
-      "name": "Чистый Minecraft (проверка)",
-      "description": "Игра без модов. Нужна, чтобы проверить, что лаунчер работает.",
+      "id": "M-M",
+      "name": "Милитори и магия",
+      "description": "Военные и магические моды.",
       "version": "1",
       "minecraft": "1.21.1",
-      "loader": "vanilla",
+      "loader": "forge",
       "loader_version": "",
-      "url": "",
+      "url": "https://github.com/snohsor/launcherObama/releases/download/v1/mods.zip",
       "server": ""
     },
     {
