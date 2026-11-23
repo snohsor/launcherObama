@@ -1,0 +1,30 @@
+{
+  "servers": [
+    { "name": "Основной сервер", "address": "127.0.0.1:25565" },
+    { "name": "Второй сервер", "address": "example.com:25565" }
+  ],
+  "packs": [
+    {
+      "id": "vanilla-test",
+      "name": "Чистый Minecraft (проверка)",
+      "description": "Игра без модов. Нужна, чтобы проверить, что лаунчер работает.",
+      "version": "1",
+      "minecraft": "1.21.1",
+      "loader": "vanilla",
+      "loader_version": "",
+      "url": "",
+      "server": ""
+    },
+    {
+      "id": "fabric-121",
+      "name": "Fabric 1.21.1",
+      "description": "Fabric без модов. Потом сюда добавишь ссылку на архив с модами.",
+      "version": "1",
+      "minecraft": "1.21.1",
+      "loader": "fabric",
+      "loader_version": "",
+      "url": "",
+      "server": "Основной сервер"
+    }
+  ]
+}
